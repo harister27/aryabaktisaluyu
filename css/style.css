@@ -1,10 +1,4 @@
-/*
 
-Blaster Template
-
-http://www.templatemo.com/tm-472-blaster
-
-*/
 
 body
 {
@@ -56,9 +50,10 @@ p {
     background: #ffffff;
     margin-bottom: 0;
 }
+
 .custom-navbar .navbar-brand  {
-	color: #303030;
-	font-size: 40px;
+	color: #ffffff;
+	font-size: 15px;
 }
 .custom-navbar .navbar-brand .navbar-toggle {
     background: #55acee;
@@ -67,7 +62,7 @@ p {
     color: #fff;
 }
 .custom-navbar .nav li a {
-    color: #505050;
+    color: #ffffff;
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 4px;
@@ -76,7 +71,7 @@ p {
 	transition: all 0.3s ease-in-out;
 }
 .custom-navbar .nav li a:hover {
-  	background: #FFD321;
+  	color: #FFD321;
   	transition: all 0.3s ease-in-out;
 }
 .custom-navbar .nav > li > a:focus {
@@ -84,7 +79,7 @@ p {
   	outline: none;
 }
 .custom-navbar .nav li.active > a {
-    background-color: #FFD321;
+    /* background-color: #FFD321; */
 }
 .custom-navbar .navbar-toggle {
     border: none;
@@ -103,14 +98,14 @@ p {
          }
     .custom-navbar.top-nav-collapse {
             padding: 14px;
-            background: #fff;
-            border-bottom: 1px solid #eeeeee;
+            background: #49211D;
+            border-bottom: 1px solid #49211D;
         }
 }
 
 /* home section */
 #home {
-  background: url('../images/home-bg.jpg') no-repeat;
+  background: url('../images/bg-home.jpg') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -131,20 +126,30 @@ p {
 }
 #home h3 {
   letter-spacing: 2px;
+  font-size: 38px;
+  color: white;
+}
+#home h1 {
+  letter-spacing: 2px;
+  font-size: 18px;
+  color: white;
+  font-weight: lighter;
 }
 #home .btn {
-  background: transparent;
-  border-radius: 0;
-  border: 3px solid #404040;
-  color: #404040;
+  background: #A25641;
+  border-radius: 5%;
+  border: 3px solid #A25641;
+  color: #ffffff;
   font-weight: bold;
   padding: 16px 42px;
   margin-top: 40px;
   transition: all 0.4s ease-in-out;
 }
 #home .btn:hover {
-  background: #404040;
-  color: #ffffff;
+  background: #ffffff;
+  color: #A25641;
+  border: 3px solid #ffffff;
+  border-radius: 5%;
 }
 
 /* about section */
