@@ -5,12 +5,11 @@ Blaster Template
 http://www.templatemo.com/tm-472-blaster
 
 */
-body
-{
-	background: #ffffff;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 400;
-	position: relative;
+body {
+  background: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  position: relative;
 }
 
 html,
@@ -69,10 +68,10 @@ p {
   margin-bottom: 0;
 }
 
-.custom-navbar .navbar-brand  {
-	color: #ffffff;
+.custom-navbar .navbar-brand {
+  color: #ffffff;
   font-weight: 600 !important;
-	font-size: 20px;
+  font-size: 20px;
 }
 .custom-navbar .navbar-brand .navbar-toggle {
   background: #55acee;
@@ -81,49 +80,49 @@ p {
   color: #fff;
 }
 .custom-navbar .nav li a {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    padding-right: 20px;
-    padding-left: 20px;
-    transition: all 0.3s ease-in-out;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding-right: 20px;
+  padding-left: 20px;
+  transition: all 0.3s ease-in-out;
 }
 .custom-navbar .nav li a.active {
-  color: #E8AF37;
+  color: #e8af37;
   font-weight: 700;
 }
 .custom-navbar .nav li a:hover {
-  	color: #E8AF37;
-    background: transparent;
-  	transition: all 0.3s ease-in-out;
+  color: #e8af37;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
 }
 .custom-navbar .nav > li > a:focus {
   background-color: transparent;
   outline: none;
 }
 .custom-navbar .nav li.active > a {
-    /* background-color: #FFD321; */
+  /* background-color: #FFD321; */
 }
 .custom-navbar .navbar-toggle {
   border: none;
   padding-top: 10px;
 }
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #FFD321;
-    border-color: transparent;
+  background: #ffd321;
+  border-color: transparent;
 }
-@media(min-width:768px){
-    .custom-navbar {
-            background: #ffffff;
-            padding: 14px;
-            border-bottom: 0;
-            background: 0 0;
-         }
-    .custom-navbar.top-nav-collapse {
-            padding: 14px;
-            background: #49211D;
-            border-bottom: 1px solid #49211D;
-        }
+@media (min-width: 768px) {
+  .custom-navbar {
+    background: #ffffff;
+    padding: 14px;
+    border-bottom: 0;
+    background: 0 0;
+  }
+  .custom-navbar.top-nav-collapse {
+    padding: 14px;
+    background: #49211d;
+    border-bottom: 1px solid #49211d;
+  }
 }
 
 /* about section */
@@ -160,19 +159,100 @@ p {
 #about .progress .progress-bar-primary {
   background: #ffd321;
 }
+
 /*Our Works  */
+#Judul-Our-Works h1 {
+  color: #e8af37;
+  font-size: 25px;
+}
+#Judul-Our-Works h2 {
+  color: #a25641;
+  font-size: 32px;
+}
+
+#our-works img {
+  width: 320px;
+  height: 380px;
+  float: right;
+  display: block;
+  margin-right: 140px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+#our-works .bg {
+  float: left;
+  width: 1300px;
+  height: 700px;
+  margin: 0;
+  position: relative;
+}
+
+#our-works {
+  background-color: #49211d;
+  height: 650px;
+}
+#our-works .container {
+  position: absolute;
+}
+
+#our-works h2 {
+  color: #ffffff;
+  margin-top: 150px;
+  margin-left: 140px;
+}
+#our-works h6 {
+  font-size: 15px;
+  color: #e8af37;
+  margin-top: 20px;
+  margin-left: 140px;
+  display: inline;
+}
+#our-works p {
+  color: #ffff;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+#our-works h5 {
+  color: #e8af37;
+  line-height: 110px;
+  margin-left: 140px;
+}
+#our-works h6 img {
+  width: 10px;
+}
+#our-works .pin {
+  background-image: url(//images/Map\ Pin.svg);
+  width: 10px;
+  text-align: left;
+}
+
+/* Our */
+#our {
+  margin-top: 80px;
+  background-color: #ffffff;
+}
 #our img {
   border-radius: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 #our h3 {
   font-size: 12px;
   color: #852a00;
+  margin-bottom: 25px;
+}
+#our h2 {
+  line-height: 18px;
+}
+#our .iso-section {
+  line-height: 70px;
+}
+#our a .smoothScroll {
+  line-height: 73px;
 }
 /* portfolio section */
 #portfolio {
   padding-top: 100px;
-  background: #f9f9f9;
+
   text-align: center;
 }
 #portfolio .container {
@@ -310,6 +390,7 @@ p {
 }
 .contact-info-box h3 {
   font-size: 16px;
+  color: #808080;
 }
 
 /* footer section */
